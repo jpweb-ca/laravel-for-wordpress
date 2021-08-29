@@ -839,7 +839,7 @@ if (! function_exists('trans_choice')) {
     }
 }
 
-if (! function_exists('__')) {
+if (!function_exists('___')) {
     /**
      * Translate the given message.
      *
@@ -848,7 +848,7 @@ if (! function_exists('__')) {
      * @param  string|null  $locale
      * @return string|array|null
      */
-    function __($key = null, $replace = [], $locale = null)
+    function ___($key = null, $replace = [], $locale = null)
     {
         if (is_null($key)) {
             return $key;
